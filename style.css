@@ -26,7 +26,8 @@ h1{
     font-weight:normal;
     text-align:right;
   }
-  a:hover, a:visited {color:rgb(255, 251, 251);text-decoration:none;}
+a:link, a:active {color:silver; text-decoration:none;}
+a:hover, a:visited {color:rgb(255, 251, 251);text-decoration:none;}
   
 #navigation li.active {
     font-family: Poiret One;
@@ -67,20 +68,23 @@ h1{
     text-align: center;
 }
 
-#pricing{
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 50px;
-	text-align: center;
-	background-color: #ffffff;
-}
 
 #accordionExample{
     margin: 0 auto;
     min-width: 320px;
     min-height: 64px;
 }
-h3,h5 p{
+h3,h5, p{
     font-family: Poiret One;
+    text-align: center;
 
+}
+
+#infoFormat {
+    background-color: rgb(12, 12, 50);
+    color: #fff;
+    padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	text-align: center;
 }
