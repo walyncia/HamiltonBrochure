@@ -1,0 +1,86 @@
+
+#title {
+    background-color: rgb(12, 12, 50);
+    color: #fff;
+}
+h1{
+    font-family: Poiret One;
+    text-align: left;
+    font-size: 100px;
+    color:silver;
+}
+#navigation{
+    font-family: Poiret One;
+    padding:0 25px;
+    font-size: 20px;
+    text-align:right;
+
+  }
+#navigation li{
+    font-family: Poiret One;
+    display:inline-block;
+    padding: 0 25px;
+    color:silver;
+    text-transform: uppercase;
+    cursor:pointer;
+    font-weight:normal;
+    text-align:right;
+  }
+  a:hover, a:visited {color:rgb(255, 251, 251);text-decoration:none;}
+  
+#navigation li.active {
+    font-family: Poiret One;
+    cursor:default;
+    text-transform: uppercase;
+    font-weight:bolder;
+    text-decoration:overline;
+    
+  }
+
+  .navbar-dark{
+	margin-bottom: 100px;
+}
+
+.nav-item{
+    padding: 0 45px;
+    margin-bottom: -70px;
+}
+
+#addedborder{
+	background-color: #7db869;
+    position: relative;
+    height: .005px;
+	padding: 10px 125px 5px 125px;
+}
+
+#description{
+    font-family: Poiret One;
+    margin-bottom: -5%;
+    font-size: 20px;
+    text-align:center;
+    font-weight: bolder;
+}
+
+.image{
+    height:850px;
+    width:100%;
+    text-align: center;
+}
+
+#pricing{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+#accordionExample{
+    margin: 0 auto;
+    min-width: 320px;
+    min-height: 64px;
+}
+h3,h5 p{
+    font-family: Poiret One;
+
+}
